@@ -54,7 +54,7 @@ const pools: PoolConfig[] = [
     tokenDecimals: 18,
   },
   {
-       sousId: 301,
+       sousId: 302,
     tokenName: 'BITSEC #3',
     stakingTokenName: QuoteToken.CAKE,
     stakingTokenAddress: '0x95f1152ED8b63A0FDC7AF3DD83E120D0180152a8',
@@ -71,7 +71,7 @@ const pools: PoolConfig[] = [
     tokenDecimals: 18,
    },
     {
-       sousId: 302,
+       sousId: 303,
     tokenName: 'BITSEC #4',
     stakingTokenName: QuoteToken.CAKE,
     stakingTokenAddress: '0x95f1152ED8b63A0FDC7AF3DD83E120D0180152a8',
