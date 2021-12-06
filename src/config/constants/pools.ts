@@ -77,7 +77,7 @@ const pools: PoolConfig[] = [
     stakingTokenAddress: '0x95f1152ED8b63A0FDC7AF3DD83E120D0180152a8',
     contractAddress: {
       97: '0xAfd61Dc94f11A70Ae110dC0E0F2061Af5633061A',
-      56: '0x2a13A47CfA1373615287F3f492d549E039a1fE1a',
+      56: '0x3bD6566CD59889bbdcCB5aD2A3D974d2C387423c',
     },
     poolCategory: PoolCategory.CORE,
     projectLink: '/',
@@ -95,7 +95,7 @@ const pools: PoolConfig[] = [
     stakingTokenAddress: '0x95f1152ED8b63A0FDC7AF3DD83E120D0180152a8',
     contractAddress: {
       97: '0xAfd61Dc94f11A70Ae110dC0E0F2061Af5633061A',
-      56: '0xb52bd2a830465aC6359D8a47fe686Dd10695b70C',
+      56: '0xc82518035A62037AC003E3BCa5Da85E593fab173',
     },
     poolCategory: PoolCategory.CORE,
     projectLink: '/',
