@@ -87,7 +87,24 @@ const pools: PoolConfig[] = [
     isFinished: false,
     tokenDecimals: 18,
    },
+  {
     
+      sousId: 304,
+    tokenName: 'BITSEC #5',
+    stakingTokenName: QuoteToken.CAKE,
+    stakingTokenAddress: '0x95f1152ED8b63A0FDC7AF3DD83E120D0180152a8',
+    contractAddress: {
+      97: '0xAfd61Dc94f11A70Ae110dC0E0F2061Af5633061A',
+      56: '0xb52bd2a830465aC6359D8a47fe686Dd10695b70C',
+    },
+    poolCategory: PoolCategory.CORE,
+    projectLink: '/',
+    harvest: true,
+    tokenPerBlock: ' 0.012',
+    sortOrder: 999,
+    isFinished: false,
+    tokenDecimals: 18,
+   },
 ]
 
 export default pools
