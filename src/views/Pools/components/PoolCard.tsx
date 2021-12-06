@@ -183,7 +183,7 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
               </>
             ))}
         </StyledCardActions>
-        {/* {sousId === 303 ? null : <StyledDetails>
+        {/* {sousId === 3033 ? null : <StyledDetails>
           <div style={{ flex: 1 }}>{TranslateString(736, 'APR')}:</div>
           {isFinished || isOldSyrup || !apy || apy?.isNaN() || !apy?.isFinite() ? (
             '-'
@@ -192,7 +192,7 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
           )}
         </StyledDetails>} */}
 
-        {sousId === 303 ? null :         <StyledDetails>
+        {sousId === 3033 ? null :         <StyledDetails>
           <div style={{ flex: 1 }}>
             <span role="img" aria-label={stakingTokenName}>
               {' '}
