@@ -35,6 +35,7 @@ const pools: PoolConfig[] = [
     sortOrder: 999,
     isFinished: false,
     tokenDecimals: 18,
+    isNew: false
   },
   {
     sousId: 301,
@@ -52,6 +53,7 @@ const pools: PoolConfig[] = [
     sortOrder: 999,
     isFinished: false,
     tokenDecimals: 18,
+    isNew: false
   },
   {
        sousId: 302,
@@ -69,6 +71,7 @@ const pools: PoolConfig[] = [
     sortOrder: 999,
     isFinished: false,
     tokenDecimals: 18,
+    isNew: false
    },
     {
        sousId: 303,
@@ -86,6 +89,7 @@ const pools: PoolConfig[] = [
     sortOrder: 999,
     isFinished: false,
     tokenDecimals: 18,
+    isNew: false
    },
   {
     
@@ -104,7 +108,26 @@ const pools: PoolConfig[] = [
     sortOrder: 999,
     isFinished: false,
     tokenDecimals: 18,
+    isNew: false
    },
+   {
+    sousId: 305,
+    tokenName: 'BITSEC #6',
+    stakingTokenName: QuoteToken.CAKE,
+    stakingTokenAddress: '0x95f1152ED8b63A0FDC7AF3DD83E120D0180152a8',
+    contractAddress: {
+      97: '0xAfd61Dc94f11A70Ae110dC0E0F2061Af5633061A',
+      56: '0xd047c09FEDF02670764A1c20df52CCe06e5D7F29',
+    },
+    poolCategory: PoolCategory.CORE,
+    projectLink: '/',
+    harvest: true,
+    tokenPerBlock: ' 0.012',
+    sortOrder: 999,
+    isFinished: false,
+    tokenDecimals: 18,
+    isNew: true
+ },
 ]
 
 export default pools

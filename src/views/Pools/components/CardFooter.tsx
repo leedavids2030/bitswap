@@ -87,7 +87,7 @@ const CardFooter: React.FC<Props> = ({
   const handleClick = () => setIsOpen(!isOpen)
   const Tag = tags[poolCategory]
 
-  const newTotalStaked = totalStaked ? getBalanceNumber(totalStaked)-126144 : null;
+  const newTotalStaked = totalStaked ? getBalanceNumber(totalStaked) : null;
 
   return (
     <StyledFooter isFinished={isFinished}>

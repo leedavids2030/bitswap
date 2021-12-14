@@ -74,7 +74,8 @@ export interface PoolConfig {
   sortOrder?: number
   harvest?: boolean
   isFinished?: boolean
-  tokenDecimals: number
+  tokenDecimals: number,
+  isNew: boolean
 }
 
 export type Nft = {
